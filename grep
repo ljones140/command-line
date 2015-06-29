@@ -1,0 +1,22 @@
+grep
+
+grep is arguably the most useful command in shell. use is for searching in files
+Basic use:
+==
+grep filename search_expression
+==
+
+However it is far more useful when piped | into other shell commands.
+for example it can be used with ls to search directory names:
+==
+ls haystack | needle
+==
+
+Can also be used to check running processes BUT make sure you cancel out grep itself so you don't see it's result
+==
+ps -x | grep Chrome | grep -v Chrome
+==
+
+ -v is switch to ignore rather than search
+ 
+ 
