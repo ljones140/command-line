@@ -1,0 +1,15 @@
+mv command is used to move and rename files.
+
+Can be used in various ways
+==
+mv  filetomove.txt newlocation/
+==
+this moves filetomove.txt to the /newlocation dir
+==
+mv filetomove.txt rename.txt
+==
+
+renames file is same directory
+
+combinations of moving and name changing can be used but remember that the original file will be moved. Destructive action.
+
