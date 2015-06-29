@@ -1,0 +1,19 @@
+wc is word count
+
+has 3 useful switches 
+
+-w : word
+-l : line
+-c : character
+
+typical use
+==
+file wc -w
+==
+this would count words of file.
+
+example of use with pipe |
+==
+ls -l someDir | wc -l
+==
+will count amount of directories from the ls -l  
